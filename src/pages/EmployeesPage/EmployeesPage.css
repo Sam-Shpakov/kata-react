@@ -1,0 +1,21 @@
+.employees-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.employees-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.employees-text {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 25px;
+}
