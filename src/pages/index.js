@@ -1,4 +1,5 @@
-import MainPage from './MainPage';
-import EmployeesPage from './EmployeesPage';
+import { MainPage } from './MainPage';
+import { EmployeesPage } from './EmployeesPage';
+import { RoutesPages } from './RoutesPages';
 
-export { MainPage, EmployeesPage };
+export { MainPage, EmployeesPage, RoutesPages };

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { MainPage, EmployeesPage } from '../pages';
+import { MainPage } from '../MainPage';
+import { EmployeesPage } from '../EmployeesPage';
 
-const useRoutes = () => {
+const RoutesPages = () => {
   return (
     <Routes>
       <Route path='/' element={<MainPage />} />
@@ -11,4 +12,4 @@ const useRoutes = () => {
   );
 };
 
-export default useRoutes;
+export { RoutesPages };

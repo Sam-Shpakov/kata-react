@@ -12,4 +12,4 @@ const MainPage = () => {
     </div>
   );
 };
-export default MainPage;
+export { MainPage };
